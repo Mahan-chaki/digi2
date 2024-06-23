@@ -1,0 +1,125 @@
+.container {
+  max-width: 400px;
+  height: 550px;
+  background-color: #fff;
+  z-index: 17;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 140px;
+  right: 520px;
+  justify-content: center;
+  border: 1px solid rgba(192, 192, 192, 0.697);
+  border-radius: 7px;
+}
+
+.container input {
+  width: 330px;
+  position: relative;
+  right: 32px;
+  bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(218, 41, 41, 0.598);
+  height: 45px;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  touch-action: manipulation;
+}
+
+.container input:focus {
+  scale: 1;
+  scroll-behavior: 0;
+}
+.img {
+  position: relative;
+  width: 160px;
+  top: -100px;
+  right: 110px;
+}
+
+.enter {
+  font-weight: 400;
+  position: relative;
+  right: 30px;
+  top: -70px;
+  font-size: 1.1rem;
+}
+
+/* .container div span {
+  position: relative;
+  right: 30px;
+  bottom: 70px;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+} */
+
+.salam,
+.salam2 {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  position: relative;
+  top: -30px;
+}
+
+.span3 {
+  color: rgb(186, 20, 20);
+  position: relative;
+  top: 1px;
+  right: 30px;
+}
+
+.container button {
+  background-color: rgba(214, 21, 21, 0.822);
+  color: #fff;
+  width: 330px;
+  position: relative;
+  right: 30px;
+  border: none;
+  border-radius: 8px;
+  top: 20px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.valid {
+  font-weight: 200;
+  position: relative;
+  top: 60px;
+  right: 30px;
+  font-size: 0.72rem;
+}
+@media (431px < width < 1440px) {
+  .container {
+    border: none;
+    right: 34%;
+    top: 50px;
+  }
+}
+@media (431px < width < 850px) {
+  .container {
+    right: 30%;
+  }
+}
+@media (431px < width < 650px) {
+  .container {
+    right: 25%;
+  }
+}
+@media (width <= 431px) {
+  :root {
+    max-width: 430px;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+  }
+  .container {
+    border: none;
+    right: 10px;
+    top: 50px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
